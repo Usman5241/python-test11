@@ -1,4 +1,4 @@
-version: 24.04
+version: 0.0
 os: ubuntu
 files:
   - source: /
