@@ -6,8 +6,8 @@ files:
 file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
-    - location: /install-dependencies
+    - location: /home/ubuntu/python-test/install-dependencies
       runas: root
   AfterInstall:
-    - location: /after-install
+    - location: /home/ubuntu/python-test/after-install
       runas: root
