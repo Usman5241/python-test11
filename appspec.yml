@@ -6,8 +6,8 @@ files:
     file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
-    - location: scripts/install-dependencies
+    - location: /opt/codedeploy-agent/deployment-root/80b45e11-480f-4c30-ad02-f97e772874a3/d-513MELIW6/deployment-archive/scripts/install-dependencies
       runas: root
   AfterInstall:
-    - location: scripts/after-install
+    - location: /opt/codedeploy-agent/deployment-root/80b45e11-480f-4c30-ad02-f97e772874a3/d-513MELIW6/deployment-archive/scripts/after-install
       runas: root
