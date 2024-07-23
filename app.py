@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return ' World! my python application Running with many errors........!!! I\'m host %s' % socket.gethostname()
+    return ' World! my python aps........!!! I\'m host %s' % socket.gethostname()
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
