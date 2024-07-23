@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo systemctl stop python-test111.service
+sudo systemctl stop python-test11.service
